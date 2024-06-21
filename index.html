@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img id="max" src="./images/MAX_logo.png" alt="MAX">
+                <img id="plus" src="./images/PLUS_logo.png" alt="PLUS">
+            </div>
+            <select name="" id="">
+                <option value="ko">Korean</option>
+                <option value="en">English</option>
+                <option value="ch">Chinese</option>
+            </select>
+        </nav>
+    </header>
+    <script>
+        import { Application } from '@splinetool/runtime';
+
+        const canvas = document.getElementById('canvas3d');
+        const app = new Application(canvas);
+        app.load('https://prod.spline.design/71hZfNuRRNXo9gZd/scene.splinecode');
+
+    </script>
+</body>
+</html>
